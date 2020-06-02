@@ -1,0 +1,5 @@
+---
+# vars file for cephadm
+cephadm_url: https://github.com/ceph/ceph/raw/{{ cephadm_distro }}/src/cephadm/cephadm
+cephadm_bootstrap: '{{ cephadm_bootstrap_install_dir }}/cephadm-bootstrap'
+cephadm_checksum: '{{ cephadm_checksums[cephadm_distro] }}'

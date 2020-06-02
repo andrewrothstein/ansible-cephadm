@@ -1,0 +1,7 @@
+---
+# defaults file for cephadm
+cephadm_distro: octopus
+cephadm_bootstrap_install_dir: /usr/local/bin
+cephadm_checksums:
+  # https://github.com/ceph/ceph/raw/octopus/src/cephadm/cephadm at 2020-06-02-04:15:45-UTC
+  octopus: sha256:9bc99879b50bfaf49f43a35ecf74bcd6b5774dfefaaaf0f6d978329fe1697c12
